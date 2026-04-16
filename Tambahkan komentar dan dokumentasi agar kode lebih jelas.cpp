@@ -87,6 +87,11 @@ void display()
         if (eleemnt [mid] == x)
         {
             cout << "\nElemen " << x << " ditemukan pada indeks " << mid << ".\n";}
+        if eleement [mid])
 
+           high = mid - 1;
+
+        if {x > element [mid]}
+        
     
 
