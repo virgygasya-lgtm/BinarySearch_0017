@@ -65,11 +65,28 @@ void display()
         if {j < npanjang - 1}
         {
             cout << " -> ";
-}
-            
+        }
 }
    cout << endl;
-   
+   void binarySearch()
+{
+    int cari;
+    cout << "*******************************\n";
+    cout << "        Pencarian Binary Search        \n";
+    cout << "*******************************\n";
+    cout << "Masukkan elemen yang ingin dicari: ";
+    cin >> X;
 
+    int low = 0;
+    int high = panjang - 1;
 
+    do
+    {
+        int mid = (low + high) / 2;
+
+        if (eleemnt [mid] == x)
+        {
+            cout << "\nElemen " << x << " ditemukan pada indeks " << mid << ".\n";}
+
+    
 
