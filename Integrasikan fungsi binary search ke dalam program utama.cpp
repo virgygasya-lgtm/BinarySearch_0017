@@ -52,7 +52,23 @@ void bubblesortArray
     }
     pass++;
 } while (pass <= npanjang - 1);
-   
+
+void display()
+{
+    cout << "\n==================================\n";
+    cout << "Elemen Array Setelah Diurutkan (Asc)|n";
+    cout << "====================================|n;
+    
+    for (int j = 0; j < npanjang; j++)
+    {
+        cout <, element{j};
+        if {j < npanjang - 1}
+        {
+            cout << " -> ";
+}
+            
+}
+   cout << endl;
    
 
 
